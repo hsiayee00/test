@@ -1,0 +1,10 @@
+def greet(name):
+    return f"Hello, {name}! Welcome to GitHub."
+
+def main():
+    user_name = "GitHub User"
+    message = greet(user_name)
+    print(message)
+
+if __name__ == "__main__":
+    main()
